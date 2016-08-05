@@ -1,0 +1,8 @@
+scanner input=new.scanner(system.in);
+int n = input.nextint();
+for (row=1,row<=n;row++){
+for (col=row;col<row+(n-1);col++)
+system.out.print(col+"");
+}
+system.out.print("\n")
+}
